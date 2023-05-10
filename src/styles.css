@@ -1,0 +1,54 @@
+body {
+  background-color: #222;
+  color: #eee;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: min(5vmin, 20px);
+}
+
+.assignment-controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.assignment-controls button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: bold;
+  background: transparent;
+  color: inherit;
+  border: 2px solid white;
+  border-radius: 3px;
+  padding: 0.2em 0.5em;
+  cursor: pointer;
+}
+.assignment-controls button:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.cols {
+  display: flex;
+  gap: 20px;
+}
+
+.cols > div {
+  flex: 1 1 min-content;
+}
+.cols > div img {
+  max-width: 100%;
+}
+.assignment {
+  max-width: 500px;
+}
+
+.fileLabel {
+  border-bottom: 1px solid grey;
+}
+h1 {
+  white-space: nowrap;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child {
+  margin-top: 0;
+}
